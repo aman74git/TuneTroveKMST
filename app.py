@@ -81,7 +81,3 @@ def Main_Redirection():
 @app.route('/<string:url>')
 def Routes_Redirection(url):
     return redirect('/index')
-
-
-if __name__ == '__main__':
-    app.run()
